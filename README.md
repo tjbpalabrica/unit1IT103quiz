@@ -1,1 +1,0 @@
-Stable offline paged quiz. No name/section. No scrolling.
