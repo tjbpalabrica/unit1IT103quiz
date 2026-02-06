@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Quiz – Chapter 1</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <h1>Quiz – Chapter 1: Introducing Operating Systems</h1>
+  <p class="sub">One question at a time. If wrong, type the correct answer to proceed — or Skip.</p>
+
+  <div class="card">
+    <div class="top">
+      <h2>Question <span id="qNum"></span> of <span id="qTotal"></span></h2>
+      <div class="mini" id="mini"></div>
+    </div>
+
+    <p id="qText" class="q"></p>
+
+    <input id="answer" placeholder="Type your answer…" autocomplete="off" />
+
+    <div id="feedback" class="feedback hidden"></div>
+
+    <div class="nav">
+      <button id="skip" class="ghost" type="button">Skip</button>
+      <button id="check" type="button">Check</button>
+    </div>
+  </div>
+
+  <div id="result" class="card hidden">
+    <div class="top">
+      <h2>Result</h2>
+      <div class="mini" id="score"></div>
+    </div>
+    <div id="review"></div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
